@@ -18,8 +18,9 @@ echo "Begin math quiz? (y/n)"
 read response
 if [ "$response" == "y" ] || [ "$response" == "Y" ]
 then 
+  SECONDS=0
   quiz
+  echo "The quiz took you $SECONDS seconds to complete."
 else 
   echo "Exiting..."
 fi
-
