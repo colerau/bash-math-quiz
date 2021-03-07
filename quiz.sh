@@ -1,3 +1,5 @@
+#!/bin/bash
+
 quiz() {
   echo "Starting quiz..."
   random1=$(($RANDOM / 100))
